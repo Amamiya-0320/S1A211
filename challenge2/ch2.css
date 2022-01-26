@@ -8,10 +8,12 @@
   font-family: HGS明朝E;
   margin: 0;
 }
+
 body {
   margin: 0;
   padding: 40px;
 }
+
 .wrapper {
   background: #f9f8ee;
   width: 800px;
@@ -23,16 +25,28 @@ body {
 /*----------------------------
 header
 ----------------------------*/
-header { margin-bottom: 60px; }
-h1 { margin-bottom: 20px; }
-ul { background: #fff; }
+header {
+  margin-bottom: 60px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  background: #fff;
+}
+
 a {
   display: block;
   color: #196f6a;
   text-decoration: none;
   padding: 10px;
 }
-a:hover { background: #e4e3d6; }
+
+a:hover {
+  background: #e9db13;
+}
 
 /*----------------------------
 main
@@ -41,10 +55,17 @@ main {
   color: #504643;
   margin-bottom: 40px;
 }
-h2 { margin-bottom: 20px; }
-p { margin-bottom: 1em; }
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
 em {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #196f6a;
 }
@@ -52,3 +73,22 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+body {
+  background: url(wood.jpg) #504643 left top repeat;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+li {
+  flex: 1 1 20%;
+}
+
+* {
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Rampart One', cursive;
+}
