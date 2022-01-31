@@ -146,6 +146,7 @@ li {
   justify-content: center;
   height: 85vh;
   text-align: center;
+  background-color: #1ca9e3;
 }
 
 .main-visual-inner {
@@ -182,13 +183,16 @@ li {
 }
 .main-visual-text {
   flex: 1;
+  font-size: 20px;
+  font-weight: bold;
+  
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
 }
 
 /*--------------------------------
- Works
+Works
 ---------------------------------*/
 .works-list {
   display: flex;
@@ -248,7 +252,7 @@ li {
   position: absolute;
   top: 50%;
   left: 50%;
-  background : #FFF;
+  background : rgb(202, 6, 6);
   opacity: 0;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transition: .2s;
@@ -617,5 +621,9 @@ li {
   /* 下層ページ */
   .article {
     padding: 50px 0;
+  }
+  .ren {
+    max-width: 600px;
+    background-color: #1ca9e3;
   }
 }
